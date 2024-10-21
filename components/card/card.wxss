@@ -1,0 +1,16 @@
+/* components/card/card.wxss */
+.card{
+  border: rgb(252, 212, 159) 10rpx solid;
+  border-radius: 50rpx 30rpx;
+  width: 340rpx;
+  height: 450rpx;
+  text-align: center;
+  margin: 15rpx;
+}
+
+.image{
+  border: rgb(253, 229, 198) 5rpx solid;
+  border-radius: 50rpx 30rpx;
+  height: 75%;
+  width: 100%;
+}

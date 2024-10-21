@@ -1,0 +1,13 @@
+<!--index.wxml-->
+<scroll-view scroll-y="true" class="scroll-view">
+<card></card>
+<card></card><card></card>
+<card></card><card></card>
+<card></card><card></card>
+<card></card><card></card>
+<card></card><card></card>
+<card></card><card></card>
+<card></card><card></card>
+<card></card><card></card>
+<card></card>
+</scroll-view>

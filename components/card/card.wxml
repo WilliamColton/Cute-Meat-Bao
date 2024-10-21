@@ -1,0 +1,6 @@
+<!--components/card/card.wxml-->
+<view class="card">
+  <image class="image" mode="aspectFill" src="https://res.wx.qq.com/wxdoc/dist/assets/img/0.4cb08bb4.jpg"></image>
+  <text max-lines="1" overflow="clip" class="text">肯德基汉堡包</text>
+  <text>推荐率：99%</text>
+</view>
