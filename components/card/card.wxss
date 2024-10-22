@@ -1,16 +1,32 @@
 /* components/card/card.wxss */
 .card{
-  border: rgb(252, 212, 159) 10rpx solid;
-  border-radius: 50rpx 30rpx;
+  border: none;
+  border-radius: 20rpx;
+  box-shadow: 1px 1px 6px -5px #000000;
   width: 340rpx;
-  height: 450rpx;
-  text-align: center;
+  height: 512rpx;
   margin: 15rpx;
 }
 
-.image{
-  border: rgb(253, 229, 198) 5rpx solid;
-  border-radius: 50rpx 30rpx;
-  height: 75%;
+image{
+  border: none;
+  border-radius: 20rpx 20rpx 0 0;
+  height: 70%;
   width: 100%;
+  margin-bottom: 10rpx;
+}
+
+.title{
+  margin-bottom: 5rpx;
+}
+
+.location{
+  font-size: 20rpx;
+  margin-bottom: 5rpx;
+}
+
+.recommendation{
+  color: red;
+  margin-bottom: 5rpx;
+  font-size: 50rpx;
 }
