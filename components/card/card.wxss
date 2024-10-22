@@ -16,6 +16,10 @@ image{
   margin-bottom: 10rpx;
 }
 
+text{
+  margin-left: 10rpx;
+}
+
 .title{
   margin-bottom: 5rpx;
 }
