@@ -1,5 +1,6 @@
 <!--index.wxml-->
 <scroll-view scroll-y="true" class="scroll-view">
+  <horizontalCard></horizontalCard>
   <card 
     imageUrl="https://res.wx.qq.com/wxdoc/dist/assets/img/0.4cb08bb4.jpg" 
     title="肯德基汉堡包" 

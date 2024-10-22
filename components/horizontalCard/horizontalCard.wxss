@@ -1,0 +1,5 @@
+/* components/horizontalCard/horizontalCard.wxss */
+.horizontalCard{
+  height: 500rpx;
+  width: 400rpx;
+}
