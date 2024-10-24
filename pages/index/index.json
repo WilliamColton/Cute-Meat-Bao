@@ -1,6 +1,7 @@
 {
   "usingComponents": {
     "card": "/components/card/card",
-    "horizontalCard": "/components/horizontalCard/horizontalCard"
+    "horizontalCard": "/components/horizontalCard/horizontalCard",
+    "nav":"/components/nav/nav"
   }
 }

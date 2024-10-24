@@ -1,3 +1,4 @@
+<nav title="首页"></nav>
 <scroll-view style="background-color: #F5F5F5;" scroll-y="true" class="scroll-view">
   <view class="card-container">
     <card imageUrl="https://res.wx.qq.com/wxdoc/dist/assets/img/0.4cb08bb4.jpg" title="肯德基汉堡包" location="大米快餐&gt;五味轩&gt;东区|100人推荐" recommendation="99">

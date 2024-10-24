@@ -1,0 +1,11 @@
+/* components/nav/nav.wxss */
+.nav{
+  width: 100vw;
+  text-align: center;
+}
+
+text{
+  margin-top: 6vh;
+  margin-bottom: 1vh;
+  font-size: 35rpx;
+}
