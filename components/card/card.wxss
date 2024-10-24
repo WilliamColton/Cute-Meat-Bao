@@ -1,5 +1,6 @@
 /* components/card/card.wxss */
 .card{
+  background-color: white;
   border: none;
   border-radius: 20rpx;
   box-shadow: 1px 1px 6px -5px #000000;
