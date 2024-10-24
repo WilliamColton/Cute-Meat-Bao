@@ -1,2 +1,4 @@
 <!--components/horizontalCard/horizontalCard.wxml-->
-<view class="horizontalCard"></view>
+<view class="horizontalCard">
+  <text class="title">{{title}}</text>
+</view>

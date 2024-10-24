@@ -4,7 +4,7 @@
   "setting": {
     "compileHotReLoad": true,
     "skylineRenderEnable": true,
-    "autoAudits": true,
+    "autoAudits": false,
     "urlCheck": false
   }
 }
