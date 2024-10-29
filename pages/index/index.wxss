@@ -1,5 +1,5 @@
 .scroll-view {
-  height: 91vh;
+  height: 89vh;
 }
 
 .card-container {
