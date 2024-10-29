@@ -18,8 +18,8 @@
   "sitemapLocation": "sitemap.json",
   "lazyCodeLoading": "requiredComponents",
   "tabBar": {
-    "color": "#000000",
-    "selectedColor": "#666b69",
+    "color": "#666b69",
+    "selectedColor": "#000000",
     "backgroundColor": "#ffffff",
     "list": [
       {

@@ -1,66 +1,63 @@
 // pages/user/user.js
+const defaultAvatarUrl = 'https://mmbiz.qpic.cn/mmbiz/icTdbqWNOwNRna42FI242Lcia07jQodd2FJGIYQfG0LAJGFxM4FbnQP6yfMxBgJ0F3YRqJCJ1aPAK2dQagdusBZg/0'
+
+var that = null
+
 Page({
-
-  /**
-   * 页面的初始数据
-   */
   data: {
-
+    avatarUrl: defaultAvatarUrl,
+    name: "",
+    isLogin: true
   },
 
-  /**
-   * 生命周期函数--监听页面加载
-   */
-  onLoad(options) {
-
+  onLoad() {
+    that = this
+    var unionID = wx.getStorageSync('unionID')
+    var avatarUrl = wx.getStorageSync('avatarUrl')
+    var name = wx.getStorageSync('name')
+    if (unionID == "" || avatarUrl == "" || name == "") {
+      this.setData({
+        isLogin: false
+      })
+    } else {
+      this.setData({
+        avatarUrl: avatarUrl,
+        name: name
+      })
+      console.log(unionID, this.data.name, this.data.avatarUrl)
+    }
   },
 
-  /**
-   * 生命周期函数--监听页面初次渲染完成
-   */
-  onReady() {
-
+  onChooseAvatar(e) {
+    this.setData({
+      avatarUrl: e.detail.avatarUrl
+    })
   },
 
-  /**
-   * 生命周期函数--监听页面显示
-   */
-  onShow() {
-
-  },
-
-  /**
-   * 生命周期函数--监听页面隐藏
-   */
-  onHide() {
-
-  },
-
-  /**
-   * 生命周期函数--监听页面卸载
-   */
-  onUnload() {
-
-  },
-
-  /**
-   * 页面相关事件处理函数--监听用户下拉动作
-   */
-  onPullDownRefresh() {
-
-  },
-
-  /**
-   * 页面上拉触底事件的处理函数
-   */
-  onReachBottom() {
-
-  },
-
-  /**
-   * 用户点击右上角分享
-   */
-  onShareAppMessage() {
-
+  onLoginButtonPressed() {
+    console.log(this.data.name)
+    console.log(this.data.avatarUrl)
+    wx.login({
+      success: (res) => {
+        wx.request({
+          url: 'http://127.0.0.1:8080/api/v1/users/login',
+          method: "POST",
+          data: {
+            "code": res.code
+          },
+          success(res) {
+            console.log(res.data)
+            if (res.data != "") {
+              that.setData({
+                isLogin: true
+              })
+              wx.setStorageSync('unionID', res.data.token)
+              wx.setStorageSync('name', that.data.name)
+              wx.setStorageSync('avatarUrl', that.data.avatarUrl)
+            }
+          }
+        })
+      },
+    })
   }
 })

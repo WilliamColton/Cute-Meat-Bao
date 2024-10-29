@@ -1,1 +1,39 @@
 /* pages/user/user.wxss */
+.avatar-wrapper {
+  padding: 0;
+  margin-bottom: 100rpx;
+  border: #cfcfcf solid 8rpx;
+  border-radius: 30rpx;
+  background-color: #F4F4F6;
+  width: 184px;
+  height: 184px;
+}
+
+.avatar{
+  width: 184px;
+  height: 184px;
+}
+
+.name-input{
+  width: 300rpx;
+  text-align: center;
+}
+
+.page {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.login {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+text{
+  padding-top: 500rpx;
+  font-size: 24rpx;
+}
