@@ -1,19 +1,18 @@
 <!--pages/user/user.wxml-->
-<view class="page">
-  <view class="login">
-    <image class="avatar" mode="scaleToFill" src="{{avatarUrl}}"></image>
-    <text>{{name}}</text>
+<view class="bottom-page">
+  <view class="bottom-login">
+    <image class="bottom-avatar" mode="scaleToFill" src="{{avatarUrl}}"></image>
+    <text class="name">{{name}}</text>
   </view>
   <text>谨以此献给我的女朋友莳望</text>
-
-
-  <page-container show="{{!isLogin}}" round="{{true}}" close-on-slide-down="{{false}}">
-    <view class="login">
-      <button class="avatar-wrapper" open-type="chooseAvatar" bind:chooseavatar="onChooseAvatar">
-        <image class="avatar" mode="scaleToFill" src="{{avatarUrl}}"></image>
-      </button>
-      <input type="nickname" class="name-input" placeholder="请输入昵称" model:value="{{name}}" />
-      <button bind:touchend="onLoginButtonPressed">登录</button>
-    </view>
-  </page-container>
 </view>
+
+<page-container show="{{!isLogin}}" round="{{true}}" close-on-slide-down="{{false}}" style="display: flex;flex-direction: column;justify-content: center;">
+  <view class="upper-page">
+    <button class="upper-avatar-wrapper" open-type="chooseAvatar" bind:chooseavatar="onChooseAvatar">
+      <image class="upper-avatar" mode="scaleToFill" src="{{avatarUrl}}"></image>
+    </button>
+    <input type="nickname" class="upper-name-input" placeholder="请输入昵称" model:value="{{name}}" />
+    <button class="upper-button" bind:touchend="onLoginButtonPressed">登录</button>
+  </view>
+</page-container>

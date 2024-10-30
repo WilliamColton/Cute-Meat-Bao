@@ -12,10 +12,10 @@ Page({
 
   onLoad() {
     that = this
-    var unionID = wx.getStorageSync('unionID')
+    var token = wx.getStorageSync('token')
     var avatarUrl = wx.getStorageSync('avatarUrl')
     var name = wx.getStorageSync('name')
-    if (unionID == "" || avatarUrl == "" || name == "") {
+    if (token == "" || avatarUrl == "" || name == "") {
       this.setData({
         isLogin: false
       })
@@ -24,7 +24,7 @@ Page({
         avatarUrl: avatarUrl,
         name: name
       })
-      console.log(unionID, this.data.name, this.data.avatarUrl)
+      console.log(token, this.data.name, this.data.avatarUrl)
     }
   },
 
@@ -51,7 +51,7 @@ Page({
               that.setData({
                 isLogin: true
               })
-              wx.setStorageSync('unionID', res.data.token)
+              wx.setStorageSync('token', res.data.token)
               wx.setStorageSync('name', that.data.name)
               wx.setStorageSync('avatarUrl', that.data.avatarUrl)
             }
