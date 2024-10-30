@@ -1,7 +1,8 @@
 {
   "pages": [
     "pages/index/index",
-    "pages/user/user"
+    "pages/user/user",
+    "pages/ranking/ranking"
   ],
   "window": {},
   "style": "v2",
@@ -25,7 +26,12 @@
       {
         "pagePath": "pages/index/index",
         "text": "首页"
-      },{
+      },
+      {
+        "pagePath": "pages/ranking/ranking",
+        "text": "排行"
+      },
+      {
         "pagePath": "pages/user/user",
         "text": "用户"
       }
