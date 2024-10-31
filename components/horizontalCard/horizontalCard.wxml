@@ -1,5 +1,5 @@
 <!--components/horizontalCard/horizontalCard.wxml-->
-<view class="horizontalCard">
+<view bind:tap="to" class="horizontalCard">
   <text class="ranking">{{ranking}}</text>
   <!--这个竖线实现方式要改，不然会留一个大空-->
   <image class="ranking-image" src="{{imageUrl}}"></image>

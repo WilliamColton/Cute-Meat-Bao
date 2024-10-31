@@ -1,0 +1,31 @@
+<!--pages/detail/detail.wxml-->
+<view class="page">
+  <swiper class="list" layout-type="transformer" transformer-type="scaleAndFade" circular="{{true}}" previous-margin="50px" next-margin="50px">
+    <swiper-item class="item">
+      <image class="img" mode="aspectFit" src="https://res.wx.qq.com/wxdoc/dist/assets/img/0.4cb08bb4.jpg"></image>
+    </swiper-item>
+    <swiper-item class="item">
+      <image class="img" mode="aspectFit" src="https://res.wx.qq.com/wxdoc/dist/assets/img/0.4cb08bb4.jpg"></image>
+    </swiper-item>
+    <swiper-item class="item">
+      <image class="img" mode="aspectFit" src="https://res.wx.qq.com/wxdoc/dist/assets/img/0.4cb08bb4.jpg"></image>
+    </swiper-item>
+    <swiper-item class="item">
+      <image class="img" mode="aspectFit" src="https://res.wx.qq.com/wxdoc/dist/assets/img/0.4cb08bb4.jpg"></image>
+    </swiper-item>
+    <swiper-item class="item">
+      <image class="img" mode="aspectFit" src="https://res.wx.qq.com/wxdoc/dist/assets/img/0.4cb08bb4.jpg"></image>
+    </swiper-item>
+    <swiper-item class="item">
+      <image class="img" mode="aspectFit" src="https://res.wx.qq.com/wxdoc/dist/assets/img/0.4cb08bb4.jpg"></image>
+    </swiper-item>
+    <swiper-item class="item">
+      <image class="img" mode="aspectFit" src="https://res.wx.qq.com/wxdoc/dist/assets/img/0.4cb08bb4.jpg"></image>
+    </swiper-item>
+  </swiper>
+
+  <text>{{title}}大米饭</text>
+  <text>{{location}}地址</text>
+  <text>{{introduction}}介绍</text>
+  <text>{{rate}}推荐率</text>
+</view>

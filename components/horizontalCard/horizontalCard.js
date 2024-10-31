@@ -7,4 +7,11 @@ Component({
     location: String,
     rate: String,
   },
+  methods: {
+    to: function () {
+      wx.navigateTo({
+        url: '/pages/detail/detail',
+      })
+    }
+  }
 })

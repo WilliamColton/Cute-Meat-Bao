@@ -2,7 +2,8 @@
   "pages": [
     "pages/index/index",
     "pages/user/user",
-    "pages/ranking/ranking"
+    "pages/ranking/ranking",
+    "pages/detail/detail"
   ],
   "window": {},
   "style": "v2",
