@@ -10,7 +10,7 @@ Page({
     isLogin: true
   },
 
-  onLoad() {
+  onShow() {
     that = this
     var token = wx.getStorageSync('token')
     var avatarUrl = wx.getStorageSync('avatarUrl')

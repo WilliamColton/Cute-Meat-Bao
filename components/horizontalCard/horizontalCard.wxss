@@ -1,10 +1,40 @@
 /* components/horizontalCard/horizontalCard.wxss */
 .horizontalCard {
-  height: 400rpx;
-  width: 500rpx;
-  box-shadow: 1px 1px 6px -5px #000000;
+  height: 180rpx;
+  width: 100vw;
   display: flex;
-  justify-content: center;
   align-items: center;
-  border-radius: 100rpx;
+  justify-content: space-around;
+  padding-left: 20rpx;
+  background-color: white;
+  margin-bottom: 20rpx;
+}
+
+.ranking {
+  font-size: 50rpx;
+}
+
+.ranking-image {
+  width: 75px;
+  height: 75px;
+  border-radius: 35rpx;
+}
+
+.about-card{
+  display: flex;
+  flex-direction: column;
+  width: 280rpx;
+}
+
+.name{
+  margin-bottom: 10rpx;
+}
+
+.location{
+  font-size: 20rpx;
+}
+
+.rate {
+  color: red;
+  font-size: 60rpx;
 }

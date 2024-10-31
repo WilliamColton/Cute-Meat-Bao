@@ -1,1 +1,9 @@
 /* pages/ranking/ranking.wxss */
+scroll-view {
+  height: 89vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}

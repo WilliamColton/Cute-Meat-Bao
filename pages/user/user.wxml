@@ -7,12 +7,14 @@
   <text>谨以此献给我的女朋友莳望</text>
 </view>
 
-<page-container show="{{!isLogin}}" round="{{true}}" close-on-slide-down="{{false}}" style="display: flex;flex-direction: column;justify-content: center;">
-  <view class="upper-page">
-    <button class="upper-avatar-wrapper" open-type="chooseAvatar" bind:chooseavatar="onChooseAvatar">
-      <image class="upper-avatar" mode="scaleToFill" src="{{avatarUrl}}"></image>
-    </button>
-    <input type="nickname" class="upper-name-input" placeholder="请输入昵称" model:value="{{name}}" />
-    <button class="upper-button" bind:touchend="onLoginButtonPressed">登录</button>
-  </view>
-</page-container>
+<root-portal>
+  <page-container show="{{!isLogin}}" round="{{true}}" close-on-slide-down="{{false}}" style="display: flex;flex-direction: column;justify-content: center;">
+    <view class="upper-page">
+      <button class="upper-avatar-wrapper" open-type="chooseAvatar" bind:chooseavatar="onChooseAvatar">
+        <image class="upper-avatar" mode="scaleToFill" src="{{avatarUrl}}"></image>
+      </button>
+      <input type="nickname" class="upper-name-input" placeholder="请输入昵称" model:value="{{name}}" />
+      <button class="upper-button" bind:touchend="onLoginButtonPressed">登录</button>
+    </view>
+  </page-container>
+</root-portal>

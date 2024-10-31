@@ -1,2 +1,29 @@
 <!--pages/ranking/ranking.wxml-->
-<text>pages/ranking/ranking.wxml</text>
+<nav title="排行"></nav>
+<scroll-view scroll-y="{{true}}">
+  <horizontalCard imageUrl="https://res.wx.qq.com/wxdoc/dist/assets/img/0.4cb08bb4.jpg" ranking="1" name="好吃，香甜" location="事实上姐姐失敬失敬失敬失敬" rate="99"></horizontalCard>
+  <horizontalCard imageUrl="https://res.wx.qq.com/wxdoc/dist/assets/img/0.4cb08bb4.jpg" ranking="1" name="好吃，香甜" location="事实上姐姐失敬失敬失敬失敬" rate="99"></horizontalCard>
+  <horizontalCard imageUrl="https://res.wx.qq.com/wxdoc/dist/assets/img/0.4cb08bb4.jpg" ranking="1" name="好吃，香甜" location="事实上姐姐失敬失敬失敬失敬" rate="99"></horizontalCard>
+  <horizontalCard imageUrl="https://res.wx.qq.com/wxdoc/dist/assets/img/0.4cb08bb4.jpg" ranking="1" name="好吃，香甜" location="事实上姐姐失敬失敬失敬失敬" rate="99"></horizontalCard>
+  <horizontalCard imageUrl="https://res.wx.qq.com/wxdoc/dist/assets/img/0.4cb08bb4.jpg" ranking="1" name="好吃，香甜" location="事实上姐姐失敬失敬失敬失敬" rate="99"></horizontalCard>
+  <horizontalCard imageUrl="https://res.wx.qq.com/wxdoc/dist/assets/img/0.4cb08bb4.jpg" ranking="1" name="好吃，香甜" location="事实上姐姐失敬失敬失敬失敬" rate="99"></horizontalCard>
+  <horizontalCard imageUrl="https://res.wx.qq.com/wxdoc/dist/assets/img/0.4cb08bb4.jpg" ranking="1" name="好吃，香甜" location="事实上姐姐失敬失敬失敬失敬" rate="99"></horizontalCard>
+  <horizontalCard imageUrl="https://res.wx.qq.com/wxdoc/dist/assets/img/0.4cb08bb4.jpg" ranking="1" name="好吃，香甜" location="事实上姐姐失敬失敬失敬失敬" rate="99"></horizontalCard>
+  <horizontalCard imageUrl="https://res.wx.qq.com/wxdoc/dist/assets/img/0.4cb08bb4.jpg" ranking="1" name="好吃，香甜" location="事实上姐姐失敬失敬失敬失敬" rate="99"></horizontalCard>
+  <horizontalCard imageUrl="https://res.wx.qq.com/wxdoc/dist/assets/img/0.4cb08bb4.jpg" ranking="1" name="好吃，香甜" location="事实上姐姐失敬失敬失敬失敬" rate="99"></horizontalCard>
+  <horizontalCard imageUrl="https://res.wx.qq.com/wxdoc/dist/assets/img/0.4cb08bb4.jpg" ranking="1" name="好吃，香甜" location="事实上姐姐失敬失敬失敬失敬" rate="99"></horizontalCard>
+  <horizontalCard imageUrl="https://res.wx.qq.com/wxdoc/dist/assets/img/0.4cb08bb4.jpg" ranking="1" name="好吃，香甜" location="事实上姐姐失敬失敬失敬失敬" rate="99"></horizontalCard>
+  <horizontalCard imageUrl="https://res.wx.qq.com/wxdoc/dist/assets/img/0.4cb08bb4.jpg" ranking="1" name="好吃，香甜" location="事实上姐姐失敬失敬失敬失敬" rate="99"></horizontalCard>
+  <horizontalCard imageUrl="https://res.wx.qq.com/wxdoc/dist/assets/img/0.4cb08bb4.jpg" ranking="1" name="好吃，香甜" location="事实上姐姐失敬失敬失敬失敬" rate="99"></horizontalCard>
+  <horizontalCard imageUrl="https://res.wx.qq.com/wxdoc/dist/assets/img/0.4cb08bb4.jpg" ranking="1" name="好吃，香甜" location="事实上姐姐失敬失敬失敬失敬" rate="99"></horizontalCard>
+  <horizontalCard imageUrl="https://res.wx.qq.com/wxdoc/dist/assets/img/0.4cb08bb4.jpg" ranking="1" name="好吃，香甜" location="事实上姐姐失敬失敬失敬失敬" rate="99"></horizontalCard>
+  <horizontalCard imageUrl="https://res.wx.qq.com/wxdoc/dist/assets/img/0.4cb08bb4.jpg" ranking="1" name="好吃，香甜" location="事实上姐姐失敬失敬失敬失敬" rate="99"></horizontalCard>
+  <horizontalCard imageUrl="https://res.wx.qq.com/wxdoc/dist/assets/img/0.4cb08bb4.jpg" ranking="1" name="好吃，香甜" location="事实上姐姐失敬失敬失敬失敬" rate="99"></horizontalCard>
+  <horizontalCard imageUrl="https://res.wx.qq.com/wxdoc/dist/assets/img/0.4cb08bb4.jpg" ranking="1" name="好吃，香甜" location="事实上姐姐失敬失敬失敬失敬" rate="99"></horizontalCard>
+  <horizontalCard imageUrl="https://res.wx.qq.com/wxdoc/dist/assets/img/0.4cb08bb4.jpg" ranking="1" name="好吃，香甜" location="事实上姐姐失敬失敬失敬失敬" rate="99"></horizontalCard>
+  <horizontalCard imageUrl="https://res.wx.qq.com/wxdoc/dist/assets/img/0.4cb08bb4.jpg" ranking="1" name="好吃，香甜" location="事实上姐姐失敬失敬失敬失敬" rate="99"></horizontalCard>
+  <horizontalCard imageUrl="https://res.wx.qq.com/wxdoc/dist/assets/img/0.4cb08bb4.jpg" ranking="1" name="好吃，香甜" location="事实上姐姐失敬失敬失敬失敬" rate="99"></horizontalCard>
+  <horizontalCard imageUrl="https://res.wx.qq.com/wxdoc/dist/assets/img/0.4cb08bb4.jpg" ranking="1" name="好吃，香甜" location="事实上姐姐失敬失敬失敬失敬" rate="99"></horizontalCard>
+  <horizontalCard imageUrl="https://res.wx.qq.com/wxdoc/dist/assets/img/0.4cb08bb4.jpg" ranking="1" name="好吃，香甜" location="事实上姐姐失敬失敬失敬失敬" rate="99"></horizontalCard>
+  <horizontalCard imageUrl="https://res.wx.qq.com/wxdoc/dist/assets/img/0.4cb08bb4.jpg" ranking="1" name="好吃，香甜" location="事实上姐姐失敬失敬失敬失敬" rate="99"></horizontalCard>
+</scroll-view>

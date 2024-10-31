@@ -1,4 +1,11 @@
 <!--components/horizontalCard/horizontalCard.wxml-->
 <view class="horizontalCard">
-  <text class="title">{{title}}</text>
+  <text class="ranking">{{ranking}}</text>
+  <!--这个竖线实现方式要改，不然会留一个大空-->
+  <image class="ranking-image" src="{{imageUrl}}"></image>
+  <div class="about-card">
+    <text class="name">{{name}}</text>
+    <text class="location">{{location}}</text>
+  </div>
+  <text class="rate">{{rate}}%</text>
 </view>

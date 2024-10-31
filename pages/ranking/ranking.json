@@ -1,3 +1,6 @@
 {
-  "usingComponents": {}
+  "usingComponents": {
+    "horizontalCard": "/components/horizontalCard/horizontalCard",
+    "nav":"/components/nav/nav"
+  }
 }

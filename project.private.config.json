@@ -11,6 +11,17 @@
     "miniprogram": {
       "list": [
         {
+          "name": "pages/ranking/ranking",
+          "pathName": "pages/ranking/ranking",
+          "query": "",
+          "launchMode": "default",
+          "scene": null,
+          "partialCompile": {
+            "enabled": true,
+            "pages": []
+          }
+        },
+        {
           "name": "pages/user/user",
           "pathName": "pages/user/user",
           "query": "",
