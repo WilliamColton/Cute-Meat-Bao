@@ -1,22 +1,22 @@
-/* pages/detail/detail.wxss */
-.page {
-  width: 100vw;
-  height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+.card{
+  margin-top: 20rpx;
 }
 
-.list {
-  margin-top: 200rpx;
-  height: 300px;
-  width: 350px;
+swiper {
+  height: 450rpx;
+  width: 750rpx;
 }
 
-.item{
-  width: 250px;
+image {
+  height: 450rpx;
+  width: 600rpx;
+  border-radius: 50rpx;
 }
 
-.img{
-  width: 250px;
+.content{
+  margin-top: 50rpx;
+  width: 650rpx;
+  height: 900rpx;
+  background-color: #e9f2f8;
+  border-radius: 50rpx;
 }

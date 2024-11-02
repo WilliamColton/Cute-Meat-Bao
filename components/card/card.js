@@ -10,7 +10,7 @@ Component({
   methods: {
     to: function () {
       wx.navigateTo({
-        url: '/pages/detail/detail',
+        url: '/pages/detail/detail?'+'title='+this.data.title+'&location='+this.data.location+'&rate='+this.data.recommendation,
       })
     }
   }

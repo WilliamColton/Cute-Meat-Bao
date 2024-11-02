@@ -1,31 +1,40 @@
-<!--pages/detail/detail.wxml-->
-<view class="page">
-  <swiper class="list" layout-type="transformer" transformer-type="scaleAndFade" circular="{{true}}" previous-margin="50px" next-margin="50px">
-    <swiper-item class="item">
-      <image class="img" mode="aspectFit" src="https://res.wx.qq.com/wxdoc/dist/assets/img/0.4cb08bb4.jpg"></image>
-    </swiper-item>
-    <swiper-item class="item">
-      <image class="img" mode="aspectFit" src="https://res.wx.qq.com/wxdoc/dist/assets/img/0.4cb08bb4.jpg"></image>
-    </swiper-item>
-    <swiper-item class="item">
-      <image class="img" mode="aspectFit" src="https://res.wx.qq.com/wxdoc/dist/assets/img/0.4cb08bb4.jpg"></image>
-    </swiper-item>
-    <swiper-item class="item">
-      <image class="img" mode="aspectFit" src="https://res.wx.qq.com/wxdoc/dist/assets/img/0.4cb08bb4.jpg"></image>
-    </swiper-item>
-    <swiper-item class="item">
-      <image class="img" mode="aspectFit" src="https://res.wx.qq.com/wxdoc/dist/assets/img/0.4cb08bb4.jpg"></image>
-    </swiper-item>
-    <swiper-item class="item">
-      <image class="img" mode="aspectFit" src="https://res.wx.qq.com/wxdoc/dist/assets/img/0.4cb08bb4.jpg"></image>
-    </swiper-item>
-    <swiper-item class="item">
-      <image class="img" mode="aspectFit" src="https://res.wx.qq.com/wxdoc/dist/assets/img/0.4cb08bb4.jpg"></image>
-    </swiper-item>
-  </swiper>
-
-  <text>{{title}}大米饭</text>
-  <text>{{location}}地址</text>
-  <text>{{introduction}}介绍</text>
-  <text>{{rate}}推荐率</text>
+<view style="background-color: #F5F5F5;height: 100vh; width: 100vw;display: flex;flex-direction: column;align-items: center;">
+  <nav title="菜品详情"></nav>
+  <view class="card">
+    <swiper circular="{{ true }}" indicator-dots="{{ false }}" previous-margin="38px" next-margin="15px">
+      <swiper-item>
+        <image mode="aspectFill" src="https://res.wx.qq.com/wxdoc/dist/assets/img/0.4cb08bb4.jpg"></image>
+      </swiper-item>
+      <swiper-item>
+        <image mode="aspectFill" src="https://res.wx.qq.com/wxdoc/dist/assets/img/0.4cb08bb4.jpg"></image>
+      </swiper-item>
+      <swiper-item>
+        <image mode="aspectFill" src="https://res.wx.qq.com/wxdoc/dist/assets/img/0.4cb08bb4.jpg"></image>
+      </swiper-item>
+      <swiper-item>
+        <image mode="aspectFill" src="https://res.wx.qq.com/wxdoc/dist/assets/img/0.4cb08bb4.jpg"></image>
+      </swiper-item>
+      <swiper-item>
+        <image mode="aspectFill" src="https://res.wx.qq.com/wxdoc/dist/assets/img/0.4cb08bb4.jpg"></image>
+      </swiper-item>
+      <swiper-item>
+        <image mode="aspectFill" src="https://res.wx.qq.com/wxdoc/dist/assets/img/0.4cb08bb4.jpg"></image>
+      </swiper-item>
+      <swiper-item>
+        <image mode="aspectFill" src="https://res.wx.qq.com/wxdoc/dist/assets/img/0.4cb08bb4.jpg"></image>
+      </swiper-item>
+      <swiper-item>
+        <image mode="aspectFill" src="https://res.wx.qq.com/wxdoc/dist/assets/img/0.4cb08bb4.jpg"></image>
+      </swiper-item>
+      <swiper-item>
+        <image mode="aspectFill" src="https://res.wx.qq.com/wxdoc/dist/assets/img/0.4cb08bb4.jpg"></image>
+      </swiper-item>
+    </swiper>
+  </view>
+  <view class="content">
+    <text>{{title}}</text>
+    <text>{{location}}</text>
+    <text>{{introduction}}</text>
+    <text>{{rate}}</text>
+  </view>
 </view>
